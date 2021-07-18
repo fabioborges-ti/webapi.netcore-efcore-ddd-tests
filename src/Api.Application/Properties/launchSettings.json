@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Api.Application": {
+      "commandName": "Project",
+      "launchBrowser": false,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "CONNECTION_STRING_DEV": "Data Source=BRRIONW038466\\SQLEXPRESS;Initial Catalog=apinetcore;Integrated Security=True"
+      },
+      "applicationUrl": "https://localhost:5000" 
+    }
+  }
+}
