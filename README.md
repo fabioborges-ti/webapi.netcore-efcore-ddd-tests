@@ -16,7 +16,7 @@ Contudo, você verá o uso de boas práticas de desenvolvimento; a utilização 
 
 Para tanto, primeiro você já deve ter instalado o SQL Server, criar um banco de dados para a aplicação e sua  *ConnectionString*. Tendo isso em mãos, basta alterar o valor da variável abaixo:
 
-```
+```bash
 "CONNECTION_STRING_DEV": "<connectionString>"
 ```
 
@@ -24,7 +24,7 @@ Para tanto, primeiro você já deve ter instalado o SQL Server, criar um banco d
 
 Depois de configurar sua *ConnectionString*, execute a aplicação em modo DEBUG e verifique se está tudo **OK**! 
 
-```
+```bash
 https://localhost:<port>/api/health
 ```
 
@@ -32,8 +32,8 @@ https://localhost:<port>/api/health
 
 Para acessar a documentação da API e seus recursos, acesse: 
 
-```
-https://localhost:<port>/swagger
+```bash
+https://localhost:5001/swagger/index.html
 ```
 
 ## 💥 Importante
@@ -42,13 +42,13 @@ Você já tem o banco de dados criado e já editou sua ***launchSettings***? Se 
 
 Para isso, você deve abrir o *prompt* do **Package Manager Console** no Visual Studio,  selecionar o projeto **API.Data** e digitar na linha de comando os seguintes comandos:
 
-```
+```bash
 Add-Migration InitialCreate
 ```
 
 Aguarde alguns segundos... é bem rapidinho! Logo em seguida...
 
-```
+```bash
 Update-Database
 ```
 
