@@ -8,9 +8,9 @@ Contudo, você verá o uso de boas práticas de desenvolvimento; a utilização 
 
 ## Para baixar:
 
-- Clone repository:
+> Clone repository:
 
-`https://github.com/fabioborges-ti/api-netcore5.git`
+`https://github.com/fabioborges-ti/webapi.netcore-efcore-ddd-tests`
 
 ## launchSettings.json
 
