@@ -1,5 +1,7 @@
 # API - Cadastro Simplificado
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Nesse projeto, minha intenção é apresentar um pouco sobre como podemos criar aplicações (desde as mais simples) com uma proposta de arquitetura limpa, que eventualmente pode demandar a  implementação de uma etapa de autenticação. Neste caso, utilizo o JWT (Json Web Token) com NetCore 5 e persistência em um banco de dados SQL SERVER e mais o Entity Frame Work Core (**EF Core**) e suas facilidades. 
 
 Trata-se de aplicação *bem* simples, apenas para cadastro de usuários (telefones e seus respectivos endereços). Nada além  disso! 😅 
